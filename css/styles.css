@@ -5,9 +5,13 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+p{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-color: hsl(224, 23%, 55%);
+}
 .container{
     border-radius: 20px;
-    float: center;
 }
 #card{
     text-align: center;
@@ -19,7 +23,13 @@ body{
 }
 #plan{
     background-color: hsl(225, 100%, 98%);
-    width: 300px;
-    float: center;
     display: inline-block;
+    width: 300px;
+    height: 100px;
+    float: center;
+    border-radius: 10px;
+}
+#icon{
+    float: left;
+    padding: 25px;
 }
